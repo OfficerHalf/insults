@@ -4,6 +4,14 @@
 p {
 	font-family: "Verdana", "Geneva", "sans-serif";
 	text-align: center;
+	background-color: #8AE68A;
+}
+btn--standard {
+	background-color: #8AE68A;
+	padding: 25px 25px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #8AE68A;
 }
 #insult {
 	font-size: 60px;
@@ -13,7 +21,7 @@ p {
 <body>
 <p style="font-size:20px;">Curse-free Insult Generator</p>
 <p id="insult"></p>
-<p><button type="button" onclick="gen()">Try Another</button></p>
+<p><a class="btn--standard" onclick="gen()">Try Another</a></p>
 <script>
 	var adjs = ["absolute", "abhorrent", "sordid", "repulsive", "catatonic",
 				"superfluous", "tedious", "preposterous", "incongruous",
