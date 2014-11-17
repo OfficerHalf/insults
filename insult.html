@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE HTML>
 <html>
 <style>
@@ -18,25 +19,24 @@ btn--standard {
 	font-weight: bold;
 }
 </style>
+=======
+<DOCTYPE HTML>
+>>>>>>> parent of ccf9827... Brought to latest version from github.io repo
 <body>
-<p style="font-size:20px;">Curse-free Insult Generator</p>
 <p id="insult"></p>
+<<<<<<< HEAD
 <p><a class="btn--standard" onclick="gen()">Try Another</a></p>
+=======
+>>>>>>> parent of ccf9827... Brought to latest version from github.io repo
 <script>
 	var adjs = ["absolute", "abhorrent", "sordid", "repulsive", "catatonic",
-				"superfluous", "tedious", "preposterous", "incongruous",
-				"derisory", "obtuse", "ridiculous", "incompetent", "revolting", "odious",
-				"utter", "redundant"];
+				"superfluous", "tedious", "preposterious", "incongruous",
+				"derisory", "obtuse"];
 	var nouns = ["cabbage", "canteloupe", "peanut", "waffle", "celery stick",
 				"legume", "desk lamp", "ballpoint pen", "pumpkin seed", "cactus",
 				"jar of relish", "curtain rod", "rocking chair", "knitting needle",
-				"woolen sock", "walnut", "loaf of bread", "lima bean", "potato"];
-	gen();
-	function gen() {
-		var adj = adjs[Math.floor(Math.random() * adjs.length)];
-		var noun = nouns[Math.floor(Math.random() * nouns.length)];
-		document.getElementById("insult").innerHTML = adj.toUpperCase() + "&nbsp" + noun.toUpperCase();
-	}
+				"woolen sock"];
+	var adj = adjs[Math.floor(Math.random() * adjs.length)];
+	var noun = noun[Math.floor(Math.random() * noun.length)];
+	document.getElementById("insult").innerHTML = adj.toUpperCase() + "&nbsp" + noun.toUpperCase();
 </script>
-</body>
-</html>
